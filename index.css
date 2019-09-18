@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+header{
+    display: flex;
+    height: 10vh;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    color: whitesmoke;
+    margin-top: 15px;
+    flex-flow: row wrap;
+}
+.logo{
+    flex: 1;
+}
+nav{
+    flex: 2;
+}
+li{
+    list-style: none;
+    size: 40px;
+    padding: 8px;
+    
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+.nav-link:hover{
+    color: black;
+    background-color: white;
+    padding: 8px;
+    transition: 0.3s;
+    border-radius: 20px;
+}
+#current-page{
+    color: black;
+    background-color: white;
+    padding: 8px;
+    border-radius: 20px;
+}
+#logo-img
+{
+    height: 70px;
+    width: 75px;
+}
+.presentation{
+    background-color: cornflowerblue;
+    width: 86%;
+    min-height: 80vh;
+    margin: auto;
+    align-content: center;
+}
+/* love svg and footer svg's */
+#love,.ft{ 
+    width: 40px;
+    height: 35px;
+    background-color: white;
+    border-radius: 5px;
+}
+.introduction{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    min-height: 110vh;
+    align-items: center;
+}
+.intro-text
+{
+    flex: 1;
+    justify-content: center;
+}
+.cta
+{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.intro-text p{
+    font-weight: 400;
+    margin: 5vh;
+    font-size: 50px;
+    margin-left: 10vh;
+}
+.intro-text h1{
+    font-weight: 400;
+    font-size: 50px;
+}
+button{
+    width: 150px;
+    height: 50px;
+    background: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button h2{
+    font-size: 22px;
+    font-weight: 600;
+}
+.resources1
+{
+    display: flex;
+    flex-flow: row wrap;
+}
+.channel,.apps,.websites,.ebooks
+{
+    display: flex;
+    min-width: 80px;
+    min-height: 120px;
+    margin: 15px;
+    border-radius: 10px;
+    background-color: white;
+    flex: 1;
+    align-items: center;
+}
+
+.res-text
+{
+    color: black;
+    margin-left: 5vw;
+    font-size: 3vw;
+}
+#websites-text
+{
+    margin-left: 12vw;
+}
+#ebooks-text
+{
+    margin-left: 8vw;
+}
+.newsletter
+{
+    display: flex;
+    width: 96vw;
+    margin: auto;
+    height: 20vh;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    align-items: center;
+    justify-content: center;
+}
+.newsletter button{
+    width: 150px;
+    height: 50px;
+    background: black;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+input[type=text]
+{
+    margin: 15px;
+    height: 40px;
+    width: 30vw;
+    border-radius: 10px;
+    border-color: black;
+}
+input[placeholder=Email]
+{
+    font-size: 20px;
+    text-align: center;
+}
+.footer
+{
+    display: flex;
+    margin: auto;
+    height: 10vh;
+    margin-top: 10vh;
+    background-color: white;
+    color: black;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.ft
+{
+    width: 40px;
+    height: 35px;
+    background-color: white;
+    border-radius: 5px;
+}
+.resources1 a:link
+{
+    text-decoration: none;
+    color: black;
+}
+.res-text:hover
+{
+    text-decoration: none;
+    color: darkorange;
+}
+a>.res-img
+{
+    height: 8vw;
+    margin-top: 1vh;
+    margin-left: 5%; 
+    border-radius: 10px;
+}
